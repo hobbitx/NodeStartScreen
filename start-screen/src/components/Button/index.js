@@ -1,14 +1,14 @@
-import './CheckBox.scss';
+import './Button.scss';
 
 import React, { Component } from 'react';
 
 class Button extends Component {
    
     render() {
-        let { label, onClick, title } = this.props;
+        let { title, onClick } = this.props;
         return (
             <div class="subject-item">
-                <span payload={label}>{label.toUpperCase()}</span>
+                <span payload={title}>{title.toUpperCase()}</span>
             </div>
         )
     }

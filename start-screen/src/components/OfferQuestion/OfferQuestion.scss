@@ -1,0 +1,50 @@
+@import "../../global";
+
+.offer-question {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 18px;
+    color:#505050;
+    padding: 22px 0px 22px;
+    letter-spacing: 0.1em;
+}
+.question-box {
+    z-index: 2;
+    background: #FAF9F8;
+}
+
+.subject-phrase {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    color: $primary;
+}
+
+.ask-question-section {
+    overflow: hidden;
+    position: relative;
+    margin: 16px 0px 32px;
+    height: 52px;
+    background: $primary !important;
+    background-clip: content-box;
+    border-radius: 8px;
+    border: 1px solid $primary !important;
+}
+
+.ask-question-input {
+    width: calc(100% - 52px);
+    height: 100%;
+    padding: 12px;
+    border: 1px solid $primary !important;
+    box-sizing: border-box;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.question-image-box {
+    cursor: pointer;
+    float: right;
+    width: 52px;
+    height: 100%;
+    left: calc(100% - 52px);
+}

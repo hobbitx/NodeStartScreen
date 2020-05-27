@@ -1,0 +1,27 @@
+.start-screen-content::-webkit-scrollbar {
+    width: 6px;
+    z-index: 1;
+}
+
+.start-screen-content::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.start-screen-content::-webkit-scrollbar-thumb {
+    background: var(--first-color) !important;
+}
+
+.start-screen-content::-webkit-scrollbar-thumb:hover {
+    background: var(--first-color) !important;
+}
+.start-screen-content {
+    position: absolute;
+    max-height: calc(100% - 48px);
+    right: 0px;
+    left: 0px;
+    height: 100%;
+    background: #faf9f8;
+    top: 48px;
+    padding: 0 24px;
+    overflow-y: scroll;
+}
